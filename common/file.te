@@ -121,3 +121,6 @@ type hbtp_log_file, file_type;
 
 # dts notifier files
 type dts_data_file, file_type, data_file_type;
+
+# Performance settings
+type sysfs_devices_system_iosched, file_type, sysfs_type;
